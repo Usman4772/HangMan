@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan Game</title>
+    <link rel="stylesheet" href="hangman.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="endGame">
+        <div class="end-container">
+            <img src="https://th.bing.com/th/id/R.df01483c5b807b6b60f6639169bdbde0?rik=hSJdT%2bzm8bgiSA&pid=ImgRaw&r=0" alt="">
+           <h3 class="correctWord">Correct Word Was <span>rainbow</span></span></h3>
+           <button class="playAgain">Play Again</button>
+        </div>
+        <div class="success-container">
+            <img src="https://th.bing.com/th/id/R.a5a6e5c4fb68a486cd9d2253293b92db?rik=37fPy1v%2b2fgHxQ&pid=ImgRaw&r=0" alt="">
+            <h3>Congrats You Won the Game!!!</h3>
+            <button class="playAgain">Play Again</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image-box">
+            <img src="hangman-0.png" alt="hangman">
+            <h1 class="game-heading">HANGMAN GAME</h1>
+        </div>
+        <div class="right-container">
+<ul class="letter-box">
+</ul>
+<div class="hint-container">
+    Hint:<span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur!</span>
+    <div class="incorrect-guesses">
+        Incorrect guesses: <span>0/6</span>
+    </div>
+</div>
+<div class="keyboard">
+</div>
+
+        </div>
+        <audio src="sound.mp3"></audio>
+    </div>
+
+    
+    <script type="module" src="hangman.js"></script>
+    <!-- <script src="wordsData.js"></script> -->
+</body>
+</html>
